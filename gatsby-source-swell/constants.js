@@ -13,7 +13,9 @@ module.exports.NODE_TYPES = [
     type: 'Product',
     label: 'product',
     endpoint: '/products',
-    arguments: {},
+    arguments: {
+      limit: 1000
+    },
   },
   {
     type: 'ProductAttribute',
